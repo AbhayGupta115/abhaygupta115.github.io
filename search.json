@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "pages/research.html",
+    "href": "pages/research.html",
+    "title": "Research Areas",
+    "section": "",
+    "text": "The Landry Lab studies how pathogens, information, and ideology spread on complex systems. We use tools from network science, mathematical modeling, Bayesian inference, and open-source development. Our research falls under the broad umbrella of dynamics on complex systems and often examines the interplay between a system’s structure and its dynamics."
+  },
+  {
+    "objectID": "pages/research.html#pairwise-and-higher-order-network-structure",
+    "href": "pages/research.html#pairwise-and-higher-order-network-structure",
+    "title": "Research Areas",
+    "section": "Pairwise and higher-order network structure",
+    "text": "Pairwise and higher-order network structure\n\nComplex systems, which model a collection of entities and their interactions, can be represented using several different mathematical objects. One common representation is a pairwise network where one assumes that only two entities may interact at once. Many empirical systems, however, often contain interactions between an arbitrary number of entities, also known as higher-order interactions. Higher-order networks, also known as hypergraphs, can model these higher-order interactions and can thus more accurately capture the structure, and potentially the dynamics, of these systems. We study the structure of these social systems and attempt to measure and model them in meaningful ways.\nReferences:\n\nThe simpliciality of higher-order networks\nFiltering higher-order datasets"
+  },
+  {
+    "objectID": "pages/research.html#inferring-network-structure",
+    "href": "pages/research.html#inferring-network-structure",
+    "title": "Research Areas",
+    "section": "Inferring network structure",
+    "text": "Inferring network structure\n\nDetermining the structure of complex systems is inferential in nature; relationships between entities in that system are deduced from observational data such as paper co-authorship, proximity sensing, and contact tracing. For example, time-series data derived from contagion processes can uncover underlying connection patterns by determining which links best explain the system’s state transitions. We use Bayesian inference to reconstruct networks from all kinds of data: mobility, time-series, contact tracing, and survey data.\n\nReconstructing networks from simple and complex contagions"
+  },
+  {
+    "objectID": "pages/research.html#the-spread-of-diseases-information-and-ideology",
+    "href": "pages/research.html#the-spread-of-diseases-information-and-ideology",
+    "title": "Research Areas",
+    "section": "The spread of diseases, information, and ideology",
+    "text": "The spread of diseases, information, and ideology\n\nWe study how diseases and ideology spread on networks, particularly those including group interactions. We bridge the divide between theory and mathematical models and data, by considering expert- and data-informed models.\nReferences:\n\nOn limitations of uniplex networks for modeling multiplex contagion\nEffect of time-dependent infectiousness on epidemic dynamics\nOpinion disparity in hypergraphs with community structure\nThe effect of heterogeneity on hypergraph contagion models"
+  },
+  {
+    "objectID": "pages/research.html#open-software",
+    "href": "pages/research.html#open-software",
+    "title": "Research Areas",
+    "section": "Open software",
+    "text": "Open software\nThe field of network science bridges across many different disciplines, bringing together theorists, computational scientists, social scientists, and many others, each with vastly different expertise. Open software decreases is essential for facilitating cross-disciplinary collaborations.\nReferences:\n\nXGI\nHyperContagion"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Just about me"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abhay Gupta",
+    "section": "",
+    "text": "I come from Delhi, India—a city full of energy and diversity. I completed my Master’s in Biology, during which I developed a strong interest in studying the evolution of adaptations using theoretical and computational approaches.\nMy research so far has explored topics like sexual conflict, sexual convolution, cancer systems, and the evolution of sex-biased cooperation. Moving forward, I’m excited to expand my work during my PhD, combining both wet and dry lab methods to tackle questions in evolution and ecology. One area I’m particularly curious about is the evolution of contagion spread—whether in pathogens or ideas—exploring how opinions or diseases propagate within communities and eventually develop strategies to combat this spread (for the diseases). Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew or a round of Avalon!\nI’m looking forward to joining the lab, learning from everyone, and contributing to meaningful research!"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Older news",
+    "section": "",
+    "text": "August 2025: The Landry Lab is established at the University of Virginia."
+  },
+  {
+    "objectID": "pages/publications.html",
+    "href": "pages/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Published\nPreprints\n\n\nAbhay Gupta, Nina Gerber, Carita Lindstedt, and Hanna Kokko, \"Sex-biased cooperation among immature peers: it matters who helps whom\", Proceedings of the Royal Society B (2025)."
+  }
+]
