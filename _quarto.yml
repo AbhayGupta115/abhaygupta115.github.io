@@ -27,7 +27,7 @@ website:
 
 format:
   html:
-    theme: spacelab
+    theme: brite
     mainfont: franklin-gothic, sans-serif
     toc: true
     smooth-scroll: true
