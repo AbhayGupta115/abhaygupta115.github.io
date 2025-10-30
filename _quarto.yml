@@ -13,8 +13,6 @@ website:
 
   navbar:
     style: "floating"
-    background: dark
-    foreground: light
     left:
       - href: index.qmd
         text: Home
@@ -28,7 +26,6 @@ website:
 format:
   html:
     theme: brite
-    mainfont: franklin-gothic, sans-serif
     toc: true
     smooth-scroll: true
     html-math-method: katex
