@@ -8,10 +8,10 @@ AG_SexBias_2025:
     - Hanna Kokko
   year: 2025
   venue: "Proceedings of the Royal Society B: Biological Sciences"
-  doi: "10.1098/rspb.2025.1891"
+  published_url: "https://doi.org/10.1098/rspb.2025.1891"
   volume: "292"
   issue: "2059"
-  label: "published"
+
   
 DS_PhenoSwitch_2025:
   title: "Phenotypic switching in cancer: A systems-level perspective"
@@ -25,4 +25,4 @@ DS_PhenoSwitch_2025:
   doi: 
   pages: "33"
   publisher: "Oxford University Press"
-  label: "published"
+  published_url: ""
