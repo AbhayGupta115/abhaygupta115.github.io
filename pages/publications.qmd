@@ -10,9 +10,9 @@ keep-md: true
 import os
 import sys
 sys.path.insert(0, os.path.abspath("pages"))
-yaml_path = os.path.abspath("publications.yaml")
 from utilities import *
-pub_strs = load_publication_data(yaml_path)
+print(sys.path)
+pub_strs = load_publication_data("publications.yaml")
 ```
 
 ## Published
