@@ -26,7 +26,7 @@ Outside the lab, you’ll find me deep into either video or board games, hunting
 # Publications {#publications}
 
 ```{python}
-from utilities import *
+from pages/utilities import *
 pub_strs = load_publication_data("../publications.yaml")
 ```
 
