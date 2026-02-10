@@ -7,11 +7,11 @@ AG_SexBias_2025:
     - Raphael Ritter
     - Hanna Kokko
   year: 2025
-  venue: Proceedings of the Royal Society B: Biological Sciences
-  published_url: https://doi.org/10.1098/rspb.2025.1891
-  pdf: assets/docs/publications/rspb.2025.1891.pdf
-  volume: 292
-  issue: 2059
+  venue: "Proceedings of the Royal Society B: Biological Sciences"
+  published_url: "https://doi.org/10.1098/rspb.2025.1891"
+  pdf: "assets/docs/publications/rspb.2025.1891.pdf"
+  volume: "292"
+  issue: "2059"
 
   
 DS_PhenoSwitch_2025:
@@ -22,7 +22,7 @@ DS_PhenoSwitch_2025:
     - Mohit Kumar Jolly
     - Prakash Kulkarni
   year: 2025
-  venue: Cancer Systems Biology: Translational Mathematical Oncology
-  pages: 33
-  publisher: Oxford University Press
-  published_url: https://doi.org/10.1093/med/9780192867636.003.0004
+  venue: "Cancer Systems Biology: Translational Mathematical Oncology"
+  pages: "33"
+  publisher: "Oxford University Press"
+  published_url: "https://doi.org/10.1093/med/9780192867636.003.0004"
