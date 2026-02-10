@@ -27,4 +27,4 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: journal
