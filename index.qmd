@@ -31,7 +31,7 @@ import os
 # Assumes utilities.py is in a folder named 'scripts'
 sys.path.append(os.path.abspath('pages')) 
 from utilities import *
-pub_strs = load_publication_data("../publications.yaml")
+pub_strs = load_publication_data("/Users/msf5fk/Documents/Abhay/abhaygupta115.github.io/publications.yaml")
 ```
 
 ## Published
