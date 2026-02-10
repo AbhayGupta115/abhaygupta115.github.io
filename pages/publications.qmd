@@ -9,11 +9,10 @@ keep-md: true
 ```{python}
 import os
 import sys
-pages_dir = os.path.dirname(os.path.abspath("pages"))
-sys.path.insert(0, pages_dir)
-yaml_path = os.path.join(pages_dir, "publications.yaml")
-print(pages_dir)
+sys.path.insert(0, os.path.abspath("pages"))
+yaml_path = os.path.join(sys.path[0], "publications.yaml")
 from utilities import *
+print(pages_dir)
 pub_strs = load_publication_data(yaml_path)
 ```
 
