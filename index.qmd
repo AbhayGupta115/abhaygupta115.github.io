@@ -24,4 +24,4 @@ Originally, I come from India. I completed my Master’s in Biology, during whic
 Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew!
 
 # Publications {#publications}
-{{< include publications.qmd >}}
+{{< include pages/publications.qmd >}}
