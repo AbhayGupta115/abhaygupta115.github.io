@@ -11,10 +11,9 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath("pages"))
 pages_dir = sys.path[0]  # this is the pages/ folder, confirmed from your output
-root_dir = os.path.dirname(pages_dir)  # one level up = project root
-yaml_path = os.path.join(root_dir, "publications.yaml")
+yaml_path = os.path.join(pages_dir, "publications.yaml")
 from utilities import *
-print(sys.path)
+print(pages_dir)
 pub_strs = load_publication_data(yaml_path)
 ```
 
