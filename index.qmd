@@ -15,10 +15,58 @@ about:
       href: https://www.researchgate.net
 ---
 
-Hey! I am a PhD student at the University of Virginia.
+I am a PhD student at the University of Virginia.
 
-I am working with Dr Nicholas Landry, looking at the evolution of contagion spread, exploring how contagions propagate within communities and eventually develop strategies to combat this spread.
+I am working with Dr Nicholas Landry, looking at the evolution of contagion spread, currently exploring how contagions propagate within communities with the goal of eventually developing strategies to combat this spread.
 
-Originally I come from India. I completed my Master’s in Biology, during which I developed a strong interest in studying the evolution of adaptations using theoretical and computational approaches. My research so far has explored topics like sexual conflict, sexual convolution, cancer systems, and the evolution of sex-biased cooperation.
+Originally, I come from India. I completed my Master’s in Biology, during which I developed a strong interest in studying the evolution of adaptations using theoretical and computational approaches. My research so far has explored topics like sexual conflict, sexual co-evolution, cancer systems, and the evolution of sex-biased cooperation.
 
-Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew (Coffee or Beer)!
+Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew!
+
+# Publications {#publications}
+
+```{python}
+from utilities import *
+pub_strs = load_publication_data("../publications.yaml")
+```
+
+## Published
+
+```{python}
+#| label: "published"
+#| id: "published"
+#| output: asis
+for year in sorted(pub_strs["pubs"], reverse=True):
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"][year]) + "</ul>"
+    ))
+```
+
+
+## Preprints
+
+```{python}
+
+if len(pub_strs["wps"]) == 0:
+    display(HTML(
+        "Currently no unpublished work."
+    ))
+#| label: "preprint"
+#| id: "preprint"
+#| output: asis
+for year in sorted(pub_strs["wps"], reverse=True):
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"][year]) + "</ul>"
+    ))
+```
+
+```{python}
+#| label: "theses"
+#| id: "theses"
+#| output: asis
+for year in sorted(pub_strs["theses"], reverse=True):
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["theses"][year]) + "</ul>"
+    ))
+```
+
