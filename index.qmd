@@ -10,11 +10,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/AbhayGupta115
-    - icon: "{{< iconify academicons:google-scholar >}}"
-      text: Google Scholar
+    - text: "{{< iconify academicons:google-scholar >}} Google Scholar" 
       href: https://scholar.google.com/citations?user=7i4w1EQAAAAJ&hl=en
-    - icon: "{{< iconify fa6-brands:bluesky >}}"
-      text: Bluesky
+    - text: "{{< iconify fa6-brands:bluesky >}} Bluesky"
       href: "https://bsky.app/profile/abhay-gupta.bsky.social"
 ---
 

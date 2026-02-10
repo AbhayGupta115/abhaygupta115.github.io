@@ -33,3 +33,11 @@ format:
       - includes.html
     footnotes-hover: false
     code-fold: true
+    include-in-header:
+      text: |
+        <style>
+          ::selection {
+            background-color: var(--bs-primary);
+            color: #fff;
+          }
+        </style>
