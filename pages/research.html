@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3c72f4a0fa12c9061912e3265a384632.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3c2d2937620ecef295d30a2b250ce28.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,9 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<script src="https://d3js.org/d3.v7.min.js"></script>
 
 
 <meta property="og:title" content="Research Areas – Abhay Gupta">
@@ -79,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:site_name" content="Abhay Gupta">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,18 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pairwise-and-higher-order-network-structure" id="toc-pairwise-and-higher-order-network-structure" class="nav-link active" data-scroll-target="#pairwise-and-higher-order-network-structure">Pairwise and higher-order network structure</a></li>
-  <li><a href="#inferring-network-structure" id="toc-inferring-network-structure" class="nav-link" data-scroll-target="#inferring-network-structure">Inferring network structure</a></li>
-  <li><a href="#the-spread-of-diseases-information-and-ideology" id="toc-the-spread-of-diseases-information-and-ideology" class="nav-link" data-scroll-target="#the-spread-of-diseases-information-and-ideology">The spread of diseases, information, and ideology</a></li>
-  <li><a href="#open-software" id="toc-open-software" class="nav-link" data-scroll-target="#open-software">Open software</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -310,6 +296,22 @@ ul.task-list li input[type="checkbox"] {
         config.onUntrigger = onUntriggerFn;
       }
       window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
     }
     const xrefs = window.document.querySelectorAll('a.quarto-xref');
     const processXRef = (id, note) => {
@@ -586,5 +588,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
