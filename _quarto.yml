@@ -13,7 +13,6 @@ website:
 
   navbar:
     style: "floating"
-    background: dark
     foreground: light
     left:
       - href: index.qmd
@@ -26,3 +25,10 @@ website:
 format:
   html:
     theme: journal
+    toc: true
+    smooth-scroll: true
+    html-math-method: katex
+    include-in-header:
+      - includes.html
+    footnotes-hover: false
+    code-fold: true
