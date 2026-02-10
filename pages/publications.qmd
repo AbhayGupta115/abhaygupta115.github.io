@@ -7,8 +7,12 @@ keep-md: true
 ---
 
 ```{python}
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+yaml_path = os.path.join(BASE_DIR, "publications.yaml")
 from utilities import *
-pub_strs = load_publication_data("../publications.yaml")
+pub_strs = load_publication_data(yaml_path)
 ```
 
 ## Published
