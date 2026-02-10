@@ -12,8 +12,8 @@ import sys
 pages_dir = os.path.dirname(os.path.abspath("pages"))
 sys.path.insert(0, pages_dir)
 yaml_path = os.path.join(pages_dir, "publications.yaml")
-from utilities import *
 print(pages_dir)
+from utilities import *
 pub_strs = load_publication_data(yaml_path)
 ```
 
