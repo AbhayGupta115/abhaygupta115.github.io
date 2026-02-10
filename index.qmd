@@ -1,5 +1,18 @@
 ---
-title: "Abhay Gupta"
+title: Abhay Gupta
+subtitle: Biology
+about: 
+  template: trestles
+  image: assets/images/PXL_20251226_174403581.jpg
+  image-alt: Me
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com
+    - icon: file-text
+      text: ResearchGate
+      href: https://www.researchgate.net
 ---
 
 Hey! I am a PhD student at the University of Virginia.
@@ -10,4 +23,4 @@ Originally I come from India. I completed my Master’s in Biology, during which
 
 Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew (Coffee or Beer)!
 
-![Me](assets/images/PXL_20251226_174403581.jpg)
+<!--![Me](assets/images/PXL_20251226_174403581.jpg)
