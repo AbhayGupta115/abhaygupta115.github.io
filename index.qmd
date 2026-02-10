@@ -22,13 +22,3 @@ I am working with Dr Nicholas Landry, looking at the evolution of contagion spre
 Originally, I come from India. I completed my Master’s in Biology, during which I developed a strong interest in studying the evolution of adaptations using theoretical and computational approaches. My research so far has explored topics like sexual conflict, sexual co-evolution, cancer systems, and the evolution of sex-biased cooperation.
 
 Outside the lab, you’ll find me deep into either video or board games, hunting for the best coffee and beer spots, or exploring cities and nature. I’m always up for a chat about evolutionary theories over a cold brew!
-
-```markdown
----
-title: Publications
-listing: 
-  contents: publications.yml
-  type: table
-  sort-ui: false
-  filter-ui: false
----

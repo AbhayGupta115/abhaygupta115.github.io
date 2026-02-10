@@ -18,7 +18,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: /#publications
+      - href: pages/publications.qmd
         text: Publications
     search: true
     pinned: true
