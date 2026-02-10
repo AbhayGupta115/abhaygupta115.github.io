@@ -27,11 +27,4 @@ website:
 
 format:
   html:
-    mainfont: franklin-gothic, sans-serif
-    toc: true
-    smooth-scroll: true
-    html-math-method: katex
-    include-in-header:
-      - includes.html
-    footnotes-hover: false
-    code-fold: true
+    theme: lux
