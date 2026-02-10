@@ -13,6 +13,7 @@ website:
 
   navbar:
     style: "floating"
+    background: dark
     foreground: light
     left:
       - href: index.qmd
