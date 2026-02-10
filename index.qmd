@@ -26,7 +26,11 @@ Outside the lab, you’ll find me deep into either video or board games, hunting
 # Publications {#publications}
 
 ```{python}
-from pages/utilities import *
+import sys
+import os
+# Assumes utilities.py is in a folder named 'scripts'
+sys.path.append(os.path.abspath('pages')) 
+from utilities import *
 pub_strs = load_publication_data("../publications.yaml")
 ```
 
