@@ -25,15 +25,8 @@ website:
 
 format:
   html:
-    include-in-header:
-      text: |
-        <style>
-          ::selection {
-            background-color: var(--bs-primary);
-            color: #fff;
-          }
-        </style>
     theme: journal
+    css: styles.css
     toc: true
     smooth-scroll: true
     html-math-method: katex
