@@ -26,7 +26,7 @@ website:
 format:
   html:
     theme: journal
-    css: styles.css
+    css: style.css
     toc: true
     smooth-scroll: true
     html-math-method: katex
