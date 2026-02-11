@@ -25,14 +25,6 @@ website:
 
 format:
   html:
-    theme: journal
-    toc: true
-    smooth-scroll: true
-    html-math-method: katex
-    include-in-header:
-      - includes.html
-    footnotes-hover: false
-    code-fold: true
     include-in-header:
       text: |
         <style>
@@ -41,3 +33,11 @@ format:
             color: #fff;
           }
         </style>
+    theme: journal
+    toc: true
+    smooth-scroll: true
+    html-math-method: katex
+    include-in-header:
+      - includes.html
+    footnotes-hover: false
+    code-fold: true
