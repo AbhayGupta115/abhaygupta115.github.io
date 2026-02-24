@@ -20,6 +20,8 @@ website:
         text: Home
       - href: pages/publications.qmd
         text: Publications
+      - href: CV.pdf
+        text: CV   
     search: true
     pinned: true
 
